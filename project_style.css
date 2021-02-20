@@ -1,0 +1,41 @@
+body {
+  background-color: #C7E4DC
+}
+
+h1 {
+  font-family: helvetica; 
+}
+
+.active {
+  background-color: #309cba;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 300%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #365259;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: helvetica; 
+}
+
+nav li a:hover {
+  background-color: #749faa;
+}
