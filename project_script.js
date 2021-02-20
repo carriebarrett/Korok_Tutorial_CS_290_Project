@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 // my code below
-
+var path = require('path');
 app.use(express.static(path.join(__dirname, '/public')));
 
 app.get('/', function(req, res) {
