@@ -28,6 +28,14 @@ app.get('/fruit_trees', function(req, res) {
   res.render('fruit_trees');
 });
 
+app.get('/petroglyphs', function(req, res) {
+  res.render('petroglyphs');
+});
+
+app.get('/rock_fingers', function(req, res) {
+  res.render('rock_fingers');
+});
+
 // code from lecture continues
 app.use(function(req,res){
   res.status(404);
