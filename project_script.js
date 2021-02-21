@@ -25,7 +25,7 @@ app.get('/', function(req, res) {
   
   // slideshow is similar to https://www.w3schools.com/w3css/w3css_slideshow.asp
   var slideshowIndex = 0;
-  showImg(slideshowIndex);
+  document.addEventListener("DOMContentLoaded", showImg(slideshowIndex));
   
   function incrSlideshow(change) {
     showImg(slideshowIndex += change);// shows the image with the next index
