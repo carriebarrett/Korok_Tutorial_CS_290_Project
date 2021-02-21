@@ -33,7 +33,7 @@ app.get('/', function(req, res) {
   
   function showImg(index) {
     var i;
-    var slideList = document.getElementsByClassName("mySlides");
+    var slideList = document.getElementsByClassName("mySlideshow");
     if (n > slideList.length) {
 	  slideshowIndex = 1;
 	}
