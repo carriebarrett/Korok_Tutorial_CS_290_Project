@@ -15,27 +15,28 @@ header h1 {
   font-size: 300%;
 }
 
+/* navigation bar is similar to https://www.w3schools.com/css/css_website_layout.asp */
 nav ul {
-  list-style-type: none;
+  list-style-type: none; /* remove bullets, margin, and padding */
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: #365259;
+  overflow: hidden; /* if the content overflows the box then hide it */
+  background-color: #365259; /* sets background color of list */
 }
 
 nav li {
-  float: left;
+  float: left; /* makes it so list items go next to the previous item instead of below it */
 }
 
 nav li a {
-  display: block;
+  display: block; /* allows us to use padding, margins, etc */
   color: white;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  padding: 14px 16px; /* block elements would take up full width w/o this */
+  text-decoration: none; /* removes underlines from links */
   font-family: helvetica; 
 }
-
+/* changes the color of the item when it is hovered over */
 nav li a:hover {
-  background-color: #749faa;
+  background-color: #749faa; 
 }
