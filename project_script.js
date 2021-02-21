@@ -24,6 +24,10 @@ app.get('/', function(req, res) {
   res.render('home');
 });
 
+app.get('/fruit_trees', function(req, res) {
+  res.render('fruit_trees');
+});
+
 // code from lecture continues
 app.use(function(req,res){
   res.status(404);
