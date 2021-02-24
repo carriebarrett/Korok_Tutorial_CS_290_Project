@@ -3,6 +3,18 @@ body {
   font-family: helvetica; 
 }
 
+h1 {
+  font-family: helvetica; 
+}
+
+h2 {
+  font-family: helvetica; 
+}
+
+p{
+  font-family: helvetica;
+}
+
 a {
   font-family: helvetica;
   color: #309cba;
