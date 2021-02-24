@@ -6,6 +6,19 @@ h1 {
   font-family: helvetica; 
 }
 
+h2 {
+  font-family: helvetica; 
+}
+
+p{
+  font-family: helvetica;
+}
+
+a {
+  font-family: helvetica;
+  color: #309cba;
+}
+
 .active {
   background-color: #309cba;
 }
@@ -39,4 +52,45 @@ nav li a {
 /* changes the color of the item when it is hovered over */
 nav li a:hover {
   background-color: #749faa; 
+}
+
+.mySlides {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.btn-group {
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+button {
+  background-color: #309cba;
+  border: none;
+  color: white;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block; /* like display:block but does not add a line break after */
+  font-size: 16px;
+  font-family: helvetica;
+}
+
+button:hover {
+  background-color: #749faa;
+}
+
+/* scroll box is similar to https://www.w3schools.com/css/css_overflow.asp */
+.scrollBox {
+  background-color: white;
+  margin-left: auto; /* these 3 lines allow us to center the box*/
+  margin-right: auto;
+  width: 75%;
+  height: 50px;
+  padding: 5px; /* makes it so the text in the box doesn't go right up to the edges*/
+  border: 2px solid #749faa; /* creates a small border of the given color around the box*/
+  overflow-x: hidden; /* Hides horizontal scrollbar */
+  overflow-y: scroll; /* Adds vertical scrollbar */
 }

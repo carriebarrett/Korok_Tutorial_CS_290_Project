@@ -1,22 +1,24 @@
-// slideshow is similar to https://www.w3schools.com/w3css/w3css_slideshow.asp
-var slideshowIndex = 0;
-document.addEventListener("DOMContentLoaded", showImg(slideshowIndex));
+// Slideshow is similar to https://www.w3schools.com/w3css/w3css_slideshow.asp
+var slideIndex = 1;
+document.addEventListener("DOMContentLoaded", showDivs(slideIndex));
+setInterval(plusDivs, 4000);
 
-function incrSlideshow(change) {
-showImg(slideshowIndex += change);// shows the image with the next index
+function plusDivs() {
+  slideIndex += 1;
+  showDivs(slideIndex);
 }
 
-function showImg(index) {
-var i;
-var slideList = document.getElementsByClassName("mySlideshow");
-if (n > slideList.length) {
-  slideshowIndex = 1;
+function minusDivs() {
+  slideIndex -= 1;
+  showDivs(slideIndex);
 }
-if (n < 0) {
-  slideIndex = slideList.length - 1;
-}
-for (i = 0; i < slideList.length; i++) {
-  slideList[i].style.display = "none";
-}
-slideList[slideshowIndex].style.display = "block";
+
+function showDivs(currentIndex) {
+  var mySlidesList = document.getElementsByClassName("mySlides");
+  if (currentIndex > mySlidesList.length) {slideIndex = 1}
+  if (currentIndex < 1) {slideIndex = mySlidesList.length} ;
+  for (var i = 0; i < mySlidesList.length; i++) {
+    mySlidesList[i].style.display = "none";
+  }
+  mySlidesList[slideIndex-1].style.display = "block";
 }
