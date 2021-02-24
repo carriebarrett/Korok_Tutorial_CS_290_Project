@@ -40,15 +40,16 @@
 
 <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="get">
   <fieldset>
-    <legend>How are we doing?</legend>
+    <legend><p>How are we doing?</p></legend>
 	
-	<p>Did you find what you were looking for?</p>
+	<p>Did you find what you were looking for?
 	<label>
 	  <input type="radio" name="foundIt">Yes</label>
 	<label>
 	  <input type="radio" name="foundIt">No</label>
+	</p>
 	
-	<p>How easy to use was our website?</p>
+	<p>How easy to use was our website?
 	<label>
 	  <input type="radio" name="rating">Very difficult</label>
 	<label>
@@ -57,12 +58,15 @@
 	  <input type="radio" name="rating">Somewhat easy</label>
 	<label>
 	  <input type="radio" name="rating">Very easy</label>
+	</p>
 	<br>
 	<br>
+	<p>
 	<label for="comments">Comments:</label>
     <br>
     <textarea rows="5" cols="50" id="comments"></textarea>
 	<br>
 	<input type="submit" value="Submit review">
+	</p>
   </fieldset>
 </form>
