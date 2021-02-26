@@ -28,6 +28,10 @@ header h1 {
   font-size: 300%;
 }
 
+form {
+	font-family: helvetica;
+}
+
 /* navigation bar is similar to https://www.w3schools.com/css/css_website_layout.asp */
 nav ul {
   list-style-type: none; /* remove bullets, margin, and padding */
