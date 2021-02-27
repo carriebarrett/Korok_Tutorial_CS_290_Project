@@ -110,7 +110,7 @@ button:hover {
 /* Create two columns that float next to each other */
 .column-left {
     float: left;
-    width: 75%;
+    width: 74%;
     padding: 15px;
 }
 
