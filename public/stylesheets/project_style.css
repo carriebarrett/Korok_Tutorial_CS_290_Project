@@ -93,7 +93,7 @@ button:hover {
   margin-left: auto; /* these 3 lines allow us to center the box*/
   margin-right: auto;
   width: 75%;
-  height: 50px;
+  height: 300px;
   padding: 5px; /* makes it so the text in the box doesn't go right up to the edges*/
   border: 2px solid #749faa; /* creates a small border of the given color around the box*/
   overflow-x: hidden; /* Hides horizontal scrollbar */
