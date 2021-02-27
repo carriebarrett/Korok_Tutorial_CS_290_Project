@@ -114,16 +114,16 @@ button:hover {
   width: 90%;
 }
 
-/* Create two columns that float next to each other */
+/* Create three equal columns that floats next to each other */
 .column {
-    float: left;
-    width: 50%;
-    padding: 10px;
+  float: left;
+  width: 33.33%;
+  padding: 15px;
 }
 
 /* Clear floats after the columns */
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
