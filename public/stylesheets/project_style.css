@@ -89,7 +89,7 @@ button:hover {
 
 /* scroll box is similar to https://www.w3schools.com/css/css_overflow.asp */
 .scrollBox {
-  background-color: #C7E4DC;
+  background-color: #d5e9ed;
   margin-left: auto; /* these 3 lines allow us to center the box*/
   margin-right: auto;
   width: 75%;
