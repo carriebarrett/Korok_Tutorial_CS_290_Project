@@ -107,23 +107,8 @@ button:hover {
   width: 50%;
 }
 
-.fttest {
-  display:block;
-  margin-left: auto;
+.description {
+  margin-left: auto; /* these 3 lines allow us to center the box*/
   margin-right: auto;
-  width: 90%;
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 47%;
-  padding: 15px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+  width: 75%;
 }
